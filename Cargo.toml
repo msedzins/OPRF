@@ -1,0 +1,16 @@
+[package]
+name = "oprf"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+argon2 = "0.5.3"
+curve25519-dalek = "4.1.3"
+fhe = "0.1.0-beta.8"
+fhe-traits = "0.1.0-beta.8"
+generic-array = "1.2.0"
+opaque-ke = "3.0.0"
+p256 = "0.13.2"
+rand = "0.8"
+rustyline = "17.0.1"
+sha2 = "0.10.9"
